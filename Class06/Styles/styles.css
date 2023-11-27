@@ -1,0 +1,235 @@
+
+body, h1, h2, p, ul, li, form, table, th, td {
+    margin: 0px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(41, 106, 135);
+}
+
+/* ======================================= */
+
+
+/* ====================================== */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3d5770;
+    color: #ecf0f1;
+}
+
+header {
+    background-image: url(/Images/home-background.jfif);
+    background-color: #3a526a;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color:  rgb(248, 255, 255);
+    color: #1e2f41;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: rgb(41, 106, 135);
+}
+
+
+#about a:link {
+    color: #56aac9;
+    text-decoration: none;
+}
+
+#about a:hover {
+    color:chocolate;
+    text-decoration: underline;
+}
+
+#about a:visited {
+    color:rgb(134, 126, 121);
+    text-decoration: underline;
+}
+/* ======================================= */
+
+/* ======================================= */
+
+.services {
+    background-color: rgb(248, 255, 255);
+    color: #1e2f41;
+
+}
+
+#services li {
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+    color: #fff;
+}
+
+#services a:link {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#services a:hover {
+    color: #e06a6a;
+    text-decoration: underline;
+}
+
+#services a:visited {
+    color: #e699e0;
+  
+}
+
+#services {
+    border-radius: 3px;
+    border: #000000 solid .3px;
+    font-size: larger;
+    background-color: #3d5770;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 10px;
+    color: #ecf0f1;
+}
+/* ======================================= */
+
+/* ======================================= */
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    table-layout: fixed;
+  }
+
+  caption {
+    font-size: 1.5em;
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3a526a;
+}
+
+  th, td {
+    color: #fff;
+    background-color: #60a2c9;
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+  th {
+    background-color: #60a2c9; 
+    color: #fff; 
+  }
+
+
+/* ======================================= */
+
+/* ======================================== */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+#selectOption {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gender {
+    display: block;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.country {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 50px;
+    align-items: center;
+}
+
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: rgba(74, 93, 133, 0.296);
+    color: #000000;
+    margin: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: rgba(42, 72, 99, 0.824);
+    color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: background .2s linear .25s, border-radius .25s ease-in .25s;
+}
+
+input[type="submit"]:hover {
+    height: 50px;
+    color: black;
+    background-color: rgb(203, 234, 240);
+    border-radius: 50%;
+}
+/* ======================================== */
+
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,130 @@
+/* Reset some default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3d5770;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header {
+    background-image: url(/Images/home-background.jfif);
+    font-size: large;
+    background-color: #60a2c9ee;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #3498db;
+}
+
+
+#ourStory {
+    font-size: larger;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #48739d;
+
+}
+
+#ourStory:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+#ourTeam {
+    font-size: larger;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #48739d;
+}
+
+#ourTeam:hover {
+    background-color: beige;
+}
+
+#ourTeam img {
+    filter: brightness(0.9);
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    transition: .5s ease;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5)
+}
+
+#ourTeam img:hover {
+ 
+    filter: brightness(1.05);
+    transform: scale(1.1);
+}
+
+#ourMission {
+    font-size: larger;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #48739d;
+}
+
+#ourMission:hover {
+    background-color: beige;
+}
+
+#ourMission img {
+    filter: brightness(0.9);
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    transition: .5s ease;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5)
+}
+
+#ourMission img:hover {
+    background-color: white;
+    cursor: pointer;
+    filter: brightness(1.05);
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #22313f;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+}
