@@ -32,9 +32,9 @@ function calculateHumanAgeInDogYears(humanAge) {
   return dogAge;
 }
 
-// Example usage
-console.log(calculateDogAgeInHumanYears(11));  // Replace 3 with your dog's age
-console.log(calculateHumanAgeInDogYears(42)); // Replace 21 with your age
+
+console.log(calculateDogAgeInHumanYears(11));  
+console.log(calculateHumanAgeInDogYears(42)); 
 
 
 
@@ -65,7 +65,6 @@ function withdrawWithPrompt() {
         return;
     }
 
-    // Call the withdrawCash function and display the result
     const result = withdrawCash(withdrawalAmount);
     alert(result);
 }
