@@ -1,8 +1,12 @@
+// Ask for recipe name
 let recipeName = prompt('Enter the name of the recipe:');
+
+// Ask for number of ingredients
 let numberOfIngredients = parseInt(prompt('How many ingredients do we need for the recipe?'));
 
 let ingredients = [];
 for (let i = 0; i < numberOfIngredients; i++) {
+    // Ask for ingredient name
     let ingredientName = prompt(`Enter the name of ingredient #${i + 1}:`);
     ingredients.push(ingredientName);
 }
