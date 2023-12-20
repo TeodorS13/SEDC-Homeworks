@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="tableForm">
+        <label for="numRows">Number of Rows:</label>
+        <input placeholder="Enter nr. from 1 to 50" type="text" id="numRows" required>
+        
+        <label for="numCols">Number of Columns:</label>
+        <input placeholder="Enter nr. from 1 to 50" type="text" id="numCols" required>
+
+        <button type="button" id="generateButton">Generate Table</button>
+    </form>
+
+    <div id="tableContainer"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
