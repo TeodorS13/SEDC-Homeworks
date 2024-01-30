@@ -1,8 +1,5 @@
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Wait for the DOM to be fully loaded before attaching event listeners
-  
     // Step 1: Get references to the button and the unordered list
     const getAstrosBtn = document.getElementById('getAstrosBtn');
     const astrosList = document.getElementById('astrosList');
@@ -25,5 +22,4 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.error('Error fetching astronauts:', error));
     });
-  });
   
